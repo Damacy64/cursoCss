@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Codigos para CSS</title>
+</head>
+<body>
+	<a href="index.HTML">index</a>
+		<div>
+			<h4> tipos de selectores</h4>
+			<ul>
+				<li>* selector universal</li>
+				<li>h1--> de tipo</li>
+				<li>.nombre de la clase, por clase;class</li>
+				<li>[nombre del atributo=""] por atributos</li>
+				<li>contenedor contenido, ejemplo: <br> h2 b descendiente</li>
+				<li>contenedor:pseudo-clase <br> ejemplo: b:hover<br>pseudo-clases</li>
+				<h4>especifidad:existen diferentes tipos de jerarquia en la especificidad que son:</h4>
+				<ul>
+					<li>!important</li>
+					<li>estilos en linea</li>
+					<li>identificadores</li>
+					<li>clases <br> pseudo-clases <br> atributos</li>
+					<li>elementos <br> pseudo-elementos</li>
+				</ul>
+			</ul>
+		</div>
+		<div>opacity "sirve para darle transparencia"</div>
+		<div>
+			<h4>metodologia BEM</h4>
+			<p>es una manera para trabajar la especificidad de una mejor manera, donde se pone la clase del contenedor__lo que se tenga en el contenedor: ejemplo <br> .form__input </p>
+		</div>
+		<div>
+			<p>normalize: sirve para normalizar el estilo css y que no afecte los valores predeterminados del navegador y procurar poner un border-siginz; border-box</p>
+		</div>
+		<div>
+			<h4>existen dos medidas, que son: relativas y fijas</h4>
+			<ul>
+				<li>fijas:pxs, cm, mts, etc</li>
+				<li>relativas:em=16pxs, vw=largo, vh=ancho</li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li>font-size: es para cambiar el tamaño de un texto;</li>
+				<li>font-family: tipo de letra:</li>
+				<li>line-height:espacio que ocupara;</li>
+				<li>font-weight:grosor de la letra;</li>
+				<li>color: color que se quiere</li>
+			</ul>
+		</div>
+		<div>
+			<h4>existen 2 tipos de cajas, las cuales son en blockes y en linea, a las cajas en bloque se le pueden poner ciertas propiedades que al enlinea no;para cambiar de cajas a linea o en bloque se pone: </h4>
+			<ul>
+				<li> display: block or inline "segun sea el caso"</li>
+			</ul>
+		</div>
+		<div>
+			<h4>elementos que se pueden cambiar en las diferentes cajas</h4>
+			<ul>
+				<li>background:color: "sirve para poder cambiar el color de fondo de cada caja, y recordar que el color se pone en exagedecimal"</li>
+				<li>padding: "es la distancia que existe entre la caja y el texto, se divide en padding left,top,right,bottom"</li>
+				<li>height: "alto de una caja"</li>
+				<li>width: "ancho de una pagina"</li>
+				<li>margin: "es la distancia que separa a las cajas, funciona igual que el pading"</li>
+				<li>border-radius: "es el borde que se le dara a la caja, lo redondeado del borde"</li>
+				<li>border: tamaño del borde estilo color "se pone el tamaño 1px estilo solid color blue"</li>
+				<li>box-shadow: "sirve para darle una sombra"</li>
+				<li>text-shadow: "darle sombra al texto"</li>
+			</ul>
+		</div>
+		<div>
+			<h4>el position es para darle una posicion a una caja y se divide en:</h4>
+			<ul>
+				<li>relative: no afecta el tamaño, reserva el espacio de la caja y los mas importantes que lo definen son: top y left</li>
+				<li>se ocupa el z index: para definir que estara por encima de que objeto</li>
+				<li>absolute: hace que la caja se comporte como un elemento en linea,y borra el espacio reservado, tomando como referencia al contenedor </li>
+				<li>fixed:nos deja fijo algo, quita el espacio reservado en pantalla y se ajusta al contenido</li>
+				<li>sticky: sirve para definir en que momento una caja se comportara como un fixed</li>
+			</ul>
+		</div>
+		<div>
+			<h4>el display sirve para modificar el comportamiento de las cajas</h4>
+			<ul>
+				<li>block:ocupa toda la pantalla y se le puede agregar un alto y ancho</li>
+				<li>inline: se ajusta al contenido no se le puede poner alto y ancho</li>
+				<li>inline-block:se comporta como un block pero le podemos cambiar el tamaño y poner otra cosa al lado</li>
+			</ul>
+		</div>
+		<div>
+			<h4>overflow: nos permite modificar lo que sobre sale de la caja</h4>
+			<ul>
+				<li>auto: detecta si es necesario un scroll o no</li>
+				<li>scroll: nos da una barra para poder bajar o subir el texto</li>
+				<li>hidden: nos oculta lo que sobra</li>
+				<h4>el overflow se divide en overflow-x y overflow-y</h4>
+			</ul>
+		</div>
+		<div>
+			<h4>la propiedad float, pone una caja al lado de la otra,<i>ya casi no se usa</i></h4>
+		</div>
+		<div>
+			<h4>los pseudo-elementos sirven para poder editar una sola parte del elemento, se colocan :: y el pseudo-elemento</h4>
+			<ul>
+				<li>::first-line modifica la primera linea de la caja</li>
+				<li>::first-letter modifica la primer letra de la caja</li>
+				<li>::after pone algo antes de esa etiqueta y se puede modificar</li>
+				<li>::before pene algo despues de la etiqueta y se puede modificar</li>
+				<li>::placeholder este se ocupa en lo input y se debe de especificar en HTML</li>
+				<li>::selection sirve para modificar las propiedades de todo lo que seleccionamos</li>
+			</ul>
+		</div>
+		<div>
+			<h4>pseudo-clases funcionan igual que los pseudo-elementos se colocan : y la pseudo-clase</h4>
+			<ul>
+				<li>:hover sirve para cambiar una caja cuando el puntero se posiciona sobre esa caja</li>
+				<li>:link sirve para cambiar un link que todavia no visitamos</li>
+				<li>:visited sirve para cambiar los links que ya visitamos</li>
+				<li>:active sirve para cambiar algo mientras se este apretando esa caja</li>
+				<li>:focus sirve para cambiar una caja cuando se tenga en uso, comunmente se suele usar solo en los inputs</li>
+			</ul>
+		</div>
+		<div>
+			<h4>object-fit: se usa en imagenes y se divide en:</h4>
+			<ul>
+				<li>contain: las resoluciones se ajustan al contenido y es el valor que viene por defecto</li>
+				<li>cover: la imagen se ajusta al contenedor y recorta lo sobrante para poder ajustarse al contenedor</li>
+				<li>none:poner la imagen al tamaño real de la misma</li>
+				<li>scale-down: se queda con un valor de las anteriores pero tomando como refencia el valor mas bajo</li>
+			</ul>
+		</div>
+		<div>
+			<h4>object-position: sirve para mover una imagen dentro de un contenedor y se puede poner en pixeles object-position:30px; o en left,top,right,bottom object-position:top;</h4>
+		</div>
+		<div>
+			<h4>cursor:es una propiedad que nos permite cambiar el cursor pero es mejor ver una lista de valores en internet</h4>
+		</div>
+		<div>
+			<h4>colorizacion: existen diferentes maneras de poner un color que son:</h4>
+			<ul>
+				<li>por nombre: poniendo su nombre en ingles y que el navegador ponga ese color por defecto</li>
+				<li>hexadecimal:es igual que el metodo RGB solo que se coloca de manera hexadecimal, usando #fff o #ffffff y de igual modo elprimer valor sea red,green and blue</li>
+				<li>RGB: se coloca RGB(colorred,colorgreen,colorblue) los numeros van del 0 al 250</li>
+				<li>RGBA: se colocoa RGBA(colorred.colorgreen,colorblue,opacidad o alpha)</li>
+			</ul>
+		</div>
+		<div>
+			<h4>flexbox:es una manera de enmaquetar en la web</h4>
+			<ul>
+				<li>tiene 2 ejes, que son cross axis que es el eje de las x y main axis que es el eje de las y</li>
+				<li>a su vez cada eje tiene un inicio y un final que empieza de izquieda a derecha y de arriba para abajo</li>
+				<li>existe el flexbox container y flexbox-items</li>
+				<h4>el amrgin en las cajas flexibles funcionan diferente, por lo que la propiedad que le demos el navegador la interpreta como lo  contrario</h4>
+				<h4>hay propiedades que solo se aplican al contendeor para afectar a los item,que son:</h4>
+				<li>flex-direction:cambia la direccion de las cajas(row,column y column-reverse y row-reverse)</li>
+				<li>flex-wrap:nos respeta el ancho de la caja al momento de minimzar la ventana y las manda abajo(wrap para que las mande abajo, wrap-reverse las manda arriba)</li>
+				<li>flex-flow: se puede poner direccion y wrap en una misma linea de codigo</li>
+				<li>justify-content: center(centra el contenido),space-around(deja un espacio entre las cajas)space-between(deja el maximo de espacio entre cada caja),space-evenly(deja el mismo margen a todos lados de la caja) todas estas sirven para alinear en el main axis</li>
+				<li>las siguientes propiedades sirven para alinear en el cross axis</li>
+				<li>align-item:flex-start(coloca las cajas al inicio, hasta arriba),center(centra),flex-end(coloca las cajas al final,hasta abajo),stretch(es la propiedad por defecto, si no se le da altura definida ocupa toda la pantalla),baseline(se ocupa en conjunto de wrap-reverse para conseguir un efecto especial). se ocupa cuando solo es una linea <br> el align-content: cuando son mas lineas y son los mismos valores</li>
+				<h4>y propiedades que solo se aplican a los items, que son:</h4>
+				<li>align-self:alinea en el cross axis tiene las mismas propiedades que el align-item</li>
+				<h4>flex-grow: da el espacio sobrante a una caja, sin importar si se hace mas grande, si se le da un min-width no bajara de ese tamaño</h4>
+				<li>se puede poner valors de 1 hasta el numero que uno desee, entre mas numero se le en esa cantidad se divdira la pantalla, para saber la parte que le toca</li>
+				<li>flex-besis:sirve para dar un ancho a una caja flexible, y es mar importante que el width</li>
+				<li>flex-shrink:permite definir el espacio que va a seder cada una</li>
+				<li>flex: junta los tres valores anteriores que son: flex-grow, flex-besis, flex-shrink</li>
+				<li>order:es como el z index pero en el eje en el que apunta el main axis</li>
+			</ul>
+		</div>
+		<div>
+			<h4>Grid: es una manera de enmaquetar en la cual, se enmaqueta por rejilas</h4>
+			<ul>
+				<p>en grid cada linea se puede modificar, y hay lineas horizontales (row) y verticales (column, hay dos grid el explicito y el implicito uno se define con el grid-template y el otro con el grid-auto</p>
+				<li>el grid funciona como flex, por lo cual hay un contendero al que se le aplica un display:grid y los items son los afectados</li>
+				<li>grid-template-columns: sirve para definir el tamaño de cada una de las columnas 100px 100px 100px</li>
+				<li>grid-template-rows: sirve para definir el tamaño de cada una de las filas 100px 100px 100px</li>
+				<li>grid-column-star: sirve para definir a partir de que linea se empieza a dibujar</li>
+				<li>grid-column-end: sirve para definir donde debe de terminar de dibujarse</li>
+				<li>grid-row-star: sirve para definir donde empieza a dibujarse de arriba a abajo </li>
+				<li>grid-row-end: sirve para definir donde termina el dibujo de arriba hacias abajo</li>
+				<li>estas proiedades se pueden reducir con un shorgand que es: grid-column y grid-row en los cuales se pone el inicio y fin separados por una barra / grid-row: 2/4</li>
+				<li>span sirve para decirle cuantas columnas o filas debe de ocupar no en donde debe de empezar a dibujar</li>
+				<li>en grid existe la medida fr, en la cual divide en esas cantidades el espacio sobrante y el es que se le da a esa caja ejem. 1fr, auto tambien sirve como medida y solo ocupa lo que tenga su contenido y el padding</li>
+				<li>con repeat() podemos establecer las veces que se va a repetir y las medidas que se crearan, repeat(3, 100px) esto es lo mismo que 100px 100px 100px</li>
+				<li>grid-auto-flow: define donde pintara las celdas del grid implicito, se puede poner column, row (valor por defecto),dense rellena los huecos con las celdas que llenen ese espacio</li>
+				<li>min-max()nos permite hacer las celdas dinamicas en las que se pone como parametro un valor minimo y uno maximo min-max(50px, 1fr) dentro de min-max() se puede poner min-content o max-content</li>
+				<li>auto-fill rellena el espacio sobrante para que las celdas no ocupen todo el espacio, va dentro del repeat(auto-fill,)</li>
+				<li>auto-fit si deja crecer las celdas y se coloca igual que auto-fill</li>
+				<h5>para alinear las celdas se ocupa lo siguiente</h5>
+				<li>justify-items: funciona igual que los valores que hay en flexblox, los alinea en el eje horizontal</li>
+				<li>align-items: los alinea en el eje vertical mismos valores que el justify-items</li>
+				<li>place-items: center star el primer valor alinea de manera vertical y el segundo en horizontal es un shortgand de las dos propiedades anteriores</li>
+				<li>justify-content: funcionan igual que el items pero lo alinean al contenedor, y se pueden usar los valores de flexblox, space-around. space-betwen, space evenly</li>
+				<li>align-content: funcionan igual que el items pero lo alinean al contenedor, y se pueden usar los valores de flexblox, space-around. space-betwen, space evenly</li>
+				<li>place-content: funciona igual que place-item primero el vertical y luego el horizontal</li>
+				<li>justify-self, align-self son para aliner un item en concreto y de igual manera esta place-self de manera vertical y luego horizontal</li>
+				<li>order: funciona como el flexblox, y el z-index, definen el orden en el que se pondra una celda(cual se dibujara primero en la grilla) por defecto el order es 0</li>
+				<li>grid-grap: nos permite separar las celdas grid-grap: 5px;</li>
+				<li>en grid, se puede anidar loq ue significa que dentro de un grid podemos tener otro grid</li>
+			</ul>
+		</div>
+</body>
+</html>
